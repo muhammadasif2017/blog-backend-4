@@ -27,6 +27,6 @@ const errorHandler = (error, request, response, next) => {
 const middlewear = {
   requestLogger,
   unknownEndpoint,
-  errorHandler,
+  errorHandler
 };
 module.exports = middlewear;
